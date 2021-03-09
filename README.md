@@ -1,3 +1,5 @@
 # OOP
-Seguendo le path dell IDE le varie classi sono nel percorso
-../project/src
+Repository sotto daily updating
+Sotto standard di Java per denominazioni
+IDE Intellij
+SDK 15.02
