@@ -1,4 +1,4 @@
-package org.gmichele;
+package org.gmichele.first_concepts;
 import java.awt.Point;
 
 public class Array {

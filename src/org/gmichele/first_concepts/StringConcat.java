@@ -1,4 +1,4 @@
-package org.gmichele;
+package org.gmichele.first_concepts;
 
 public class StringConcat {
     public static void main(String[] args){

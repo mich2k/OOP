@@ -1,4 +1,4 @@
-package org.gmichele;
+package org.gmichele.first_concepts;
 
 public class JavaConventions {  // nome classe con lettera maiuscola
     final double PI = 3.14; // prima le costanti, uppercase;

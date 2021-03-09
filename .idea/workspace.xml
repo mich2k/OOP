@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a38141c8-050e-469e-8357-fcd671e659a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/gmichele/Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/gmichele/classes_visibility/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/gmichele/classes_visibility/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/gmichele/classes_visibility/Motorbikes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/gmichele/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/gmichele/first_concepts/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/gmichele/Costrutti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/gmichele/first_concepts/Costrutti.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/gmichele/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/gmichele/first_concepts/Hello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/gmichele/JavaConventions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/gmichele/first_concepts/JavaConventions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/gmichele/StringConcat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/gmichele/first_concepts/StringConcat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/gmichele/Stringhe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/gmichele/first_concepts/Stringhe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/gmichele/classes_visibility/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/gmichele/classes_visibility/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/gmichele/classes_visibility/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/gmichele/classes_visibility/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,11 +70,11 @@
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Array" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.gmichele.Array" />
+      <option name="MAIN_CLASS_NAME" value="org.gmichele.first_concepts.Array" />
       <module name="MainPath" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.gmichele.*" />
+          <option name="PATTERN" value="org.gmichele.first_concepts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615297139032</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="costruttori, setter, getter">
+      <created>1615305986568</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615305986568</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -210,6 +222,7 @@
     <MESSAGE value="UP" />
     <MESSAGE value="formal package java way" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="costruttori, setter, getter" />
+    <option name="LAST_COMMIT_MESSAGE" value="costruttori, setter, getter" />
   </component>
 </project>

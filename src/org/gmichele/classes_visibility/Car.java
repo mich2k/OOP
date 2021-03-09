@@ -38,8 +38,10 @@ public class Car {  // DEFINIZIONE DI CLASSE
 *       CLASSE PER OGGETTI:
 *                       -   DEFINIZIONE DI CLASSE
 *                       -   ATTRIBUTI
-*
-*
+*                       -   COSTRUTTORI
+*                       -   GETTER + SETTER
+*                       -   funzionalità aggiuntive
+*                       -   TOSTRING METHOD
 *
 *
 *

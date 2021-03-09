@@ -1,4 +1,4 @@
-package org.gmichele;
+package org.gmichele.first_concepts;
 
 public class Hello {    // Stesso nome del file
     public static void main(String[] args) {     // Standard di scrittura per il main della classe

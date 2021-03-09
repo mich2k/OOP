@@ -12,5 +12,13 @@ public class Main {
         System.out.println(c.getEngine());
         // ho usato il getter così tenendo l attributo incapsulato
         System.out.println(c.toString());
+
+        // utilizzo le auto-generate
+        Motorbikes prima = new Motorbikes();
+        prima.setTires(3);
+        prima.setBrand("HarleyDavinson");
+        prima.setColor("Black");
+        System.out.println(prima.toString());
+
     }
 }

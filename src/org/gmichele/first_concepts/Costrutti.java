@@ -1,4 +1,4 @@
-package org.gmichele;
+package org.gmichele.first_concepts;
 
 public class Costrutti {
     public static void main(String [] args){
