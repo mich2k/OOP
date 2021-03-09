@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a38141c8-050e-469e-8357-fcd671e659a7" name="Default Changelist" comment="formal package java way">
-      <change afterPath="$PROJECT_DIR$/src/org/gmichele/Costrutti.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/gmichele/Hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/gmichele/JavaConventions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/gmichele/StringConcat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/gmichele/Stringhe.java" afterDir="false" />
+    <list default="true" id="a38141c8-050e-469e-8357-fcd671e659a7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -153,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615290841852</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="formal package java way">
+      <created>1615292278155</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615292278155</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

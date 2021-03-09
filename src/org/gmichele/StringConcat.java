@@ -1,6 +1,6 @@
 package org.gmichele;
 
-public static class StringConcat {
+public class StringConcat {
     public static void main(String[] args){
         String s1 = "";
         int val = 10;

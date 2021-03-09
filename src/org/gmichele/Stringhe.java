@@ -1,6 +1,6 @@
 package org.gmichele;
 
-public static class Stringhe {
+public class Stringhe {
     public static void main (String[] args){
             /*
             Le strighe sono immutabili

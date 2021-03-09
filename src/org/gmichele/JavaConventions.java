@@ -1,6 +1,6 @@
 package org.gmichele;
 
-public static class JavaConventions {  // nome classe con lettera maiuscola
+public class JavaConventions {  // nome classe con lettera maiuscola
     final double PI = 3.14; // prima le costanti, uppercase;
     private int nomeAttributo;  // non la trova il builder da eseguire siccome non ha classe standard main
     public void nomeMetodo(){   // si mettono prima le eventuali private e poi le pubbliche
