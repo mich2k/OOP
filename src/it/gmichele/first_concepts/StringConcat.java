@@ -1,6 +1,6 @@
-package org.gmichele.first_concepts;
+package it.gmichele.first_concepts;
 
-public class StringConcat {
+class StringConcat {
     public static void main(String[] args){
         String s1 = "";
         int val = 10;

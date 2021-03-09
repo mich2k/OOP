@@ -1,6 +1,6 @@
-package org.gmichele.first_concepts;
+package it.gmichele.first_concepts;
 
-public class Stringhe {
+class Stringhe {
     public static void main (String[] args){
             /*
             Le strighe sono immutabili

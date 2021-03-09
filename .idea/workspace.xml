@@ -4,10 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a38141c8-050e-469e-8357-fcd671e659a7" name="Default Changelist" comment="">
+    <list default="true" id="a38141c8-050e-469e-8357-fcd671e659a7" name="Default Changelist" comment="M3-E02">
+      <change afterPath="$PROJECT_DIR$/src/it/gmichele/classes_managment_visibility/Poligono.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/gmichele/classes_managment_visibility/SDCar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/gmichele/classes_visibility/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/gmichele/classes_visibility/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/gmichele/classes_visibility/Motorbikes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/gmichele/classes_visibility/Motorbikes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/gmichele/classes_visibility/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/gmichele/classes_managment_visibility/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/gmichele/classes_visibility/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/gmichele/classes_managment_visibility/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/gmichele/classes_visibility/Motorbikes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/gmichele/classes_managment_visibility/Motorbikes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/gmichele/first_concepts/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/gmichele/first_concepts/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/gmichele/first_concepts/Costrutti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/gmichele/first_concepts/Costrutti.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/gmichele/first_concepts/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/gmichele/first_concepts/Hello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/gmichele/first_concepts/JavaConventions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/gmichele/first_concepts/JavaConventions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/gmichele/first_concepts/StringConcat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/gmichele/first_concepts/StringConcat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/gmichele/first_concepts/Stringhe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/gmichele/first_concepts/Stringhe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,11 +105,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.gmichele.classes_visibility.Main" />
+      <option name="MAIN_CLASS_NAME" value="org.gmichele.classes_managment_visibility.Main" />
       <module name="MainPath" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.gmichele.classes_visibility.*" />
+          <option name="PATTERN" value="org.gmichele.classes_managment_visibility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,9 +166,9 @@
     </configuration>
     <list>
       <item itemvalue="Application.Run" />
+      <item itemvalue="Application.Array" />
       <item itemvalue="Application.Hello" />
       <item itemvalue="Application.Costrutti" />
-      <item itemvalue="Application.Array" />
       <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
@@ -214,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615307910070</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="M3-E02">
+      <created>1615309252722</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1615309252722</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -224,6 +240,7 @@
     <MESSAGE value="fix" />
     <MESSAGE value="costruttori, setter, getter" />
     <MESSAGE value="better identation" />
-    <option name="LAST_COMMIT_MESSAGE" value="better identation" />
+    <MESSAGE value="M3-E02" />
+    <option name="LAST_COMMIT_MESSAGE" value="M3-E02" />
   </component>
 </project>

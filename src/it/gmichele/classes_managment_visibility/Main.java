@@ -1,6 +1,6 @@
-package org.gmichele.classes_visibility;
+package it.gmichele.classes_managment_visibility;
 
-public class Main {
+class Main {
     public static void main(String[] args) {
         Car c = new Car();
         c.setColor("red");

@@ -1,6 +1,6 @@
-package org.gmichele.classes_visibility;
+package it.gmichele.classes_managment_visibility;
 
-public class Motorbikes {
+class Motorbikes {
     // IN QUESTA CLASSE APPLICO I METODI DI GENERAZIONE AUTOMATICAA
     // DEGLI ELEMENTI FONDAMENTALI
     // IN intellij ATTRAVERSO " Code -> Generate... "
@@ -14,7 +14,7 @@ public class Motorbikes {
     // NON DOVERLI PER FORZA INSERIRE TUTTI
     // Mandatory Constructor
     // public Motorbikes(int tires, String brand, String color)
-    public Motorbikes() {   // not mandatory constructor
+    Motorbikes() {   // not mandatory constructor
         this.tires = tires;
         this.brand = brand;
         this.color = color;

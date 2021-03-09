@@ -1,13 +1,12 @@
-package org.gmichele.classes_visibility;
+package it.gmichele.classes_managment_visibility;
 
-public class Car {  // DEFINIZIONE DI CLASSE
+class Car {  // DEFINIZIONE DI CLASSE
     // public String color;   // !!! attributo unsafe
     private String color; // oppure solamente 'String color;'   // ATTRIBUTI
     private short engine;
     private double length;
     private short tiresNumber;
     private String fuel;
-
         // IL COSTRUTTORE PERMETTE DI USARE L OPERATORE 'new'
     public void Car(String color, short engine, double lenght, short tiresNumber, String fuel) {    // SETTER / COSTRUTTORE
         this.color = color; // this si riferisce all attributo color di sè stesso
@@ -16,7 +15,6 @@ public class Car {  // DEFINIZIONE DI CLASSE
         this.tiresNumber = tiresNumber;
         this.fuel = fuel;
     }
-
     public void setColor(String color){
         this.color = color;         // SETTER Solamente per il parametro color
     }
@@ -30,6 +28,11 @@ public class Car {  // DEFINIZIONE DI CLASSE
         return engine;
     }
     // implemento anche un toString() così da non avere car@id_virtualmachine
+
+    void turnOn(){
+        // ...
+    }
+
     public String toString(){
         return "Car con parametri " + color + ", " + engine + "L";  // così è reso stampabile in modo custom
     }

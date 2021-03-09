@@ -1,7 +1,7 @@
-package org.gmichele.first_concepts;
+package it.gmichele.first_concepts;
 import java.awt.Point;
 
-public class Array {
+class Array {
     public static void main(String[] args) {
         // Gli array sono oggetti e si creano con i costruttori
         int size = 10;
@@ -21,7 +21,6 @@ public class Array {
         for(Point punto : v_punti ) // SCORRI TUTTI GLI ELEMENTI P NEL VETTORE V_PUNTI
             System.out.println(punto);  // L indice è implicito e 'punto' sarà un oggetto
                                         // man mano aggiornato
-
 
     }
 }
