@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a38141c8-050e-469e-8357-fcd671e659a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/org/gmichele/classes_visibility/Motorbikes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/gmichele/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/gmichele/first_concepts/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/gmichele/Costrutti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/gmichele/first_concepts/Costrutti.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/gmichele/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/gmichele/first_concepts/Hello.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/gmichele/JavaConventions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/gmichele/first_concepts/JavaConventions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/gmichele/StringConcat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/gmichele/first_concepts/StringConcat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/gmichele/Stringhe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/gmichele/first_concepts/Stringhe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/gmichele/classes_visibility/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/gmichele/classes_visibility/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/gmichele/classes_visibility/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/gmichele/classes_visibility/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/gmichele/classes_visibility/Motorbikes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/gmichele/classes_visibility/Motorbikes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615305986568</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="better identation">
+      <created>1615307910070</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1615307910070</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -223,6 +223,7 @@
     <MESSAGE value="formal package java way" />
     <MESSAGE value="fix" />
     <MESSAGE value="costruttori, setter, getter" />
-    <option name="LAST_COMMIT_MESSAGE" value="costruttori, setter, getter" />
+    <MESSAGE value="better identation" />
+    <option name="LAST_COMMIT_MESSAGE" value="better identation" />
   </component>
 </project>

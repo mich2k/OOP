@@ -19,7 +19,13 @@ public class Motorbikes {
         this.brand = brand;
         this.color = color;
     }
-
+    public Motorbikes(int tires, String brand, String colors) {
+        // ESEMPIO OVERSTATE con construct. con tutti e nessun parametro
+        // se non abbiamo constr. java ne crea uno automaticamente vuoto
+        this.tires = tires;
+        this.brand = brand;
+        this.color = color;
+    }
     public int getTires() {
         return tires;
     }

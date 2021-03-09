@@ -10,12 +10,13 @@ public class Car {  // DEFINIZIONE DI CLASSE
 
         // IL COSTRUTTORE PERMETTE DI USARE L OPERATORE 'new'
     public void Car(String color, short engine, double lenght, short tiresNumber, String fuel) {    // SETTER / COSTRUTTORE
-        this.color = color;
+        this.color = color; // this si riferisce all attributo color di sè stesso
         this.engine = engine;
         this.length = length;
         this.tiresNumber = tiresNumber;
         this.fuel = fuel;
     }
+
     public void setColor(String color){
         this.color = color;         // SETTER Solamente per il parametro color
     }
