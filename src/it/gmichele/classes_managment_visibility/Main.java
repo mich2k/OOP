@@ -28,7 +28,7 @@ class Main {
 
         // OVERLOAD: INSERIRE PIU COSTRUTTORI CON PIU PARAMETRI DIVERSI
         // OVERRIDE;
-        Car[] garage = new Car[4];
+        Car[] garage = new Car[4];  // !!! UPCASTING automatico
         garage[0] = new Car();
         garage[1] = new SDCar();
         System.out.println("Polimorfismo: ");
@@ -44,6 +44,13 @@ class Main {
             // ! ESEMPIO DI OVERRIDE
         }
 
+
+        Car downCast = new SDCar();
+        // verifichiamo che tra le varie figlie sia davvero una SDCar
+        if(downCast instanceof SDCar){
+            // eseguo codice specifico
+        }
+
         Poligono pentagono = new Poligono();
         System.out.println(pentagono.toString());
 
@@ -56,6 +63,6 @@ class Main {
         CalcolatoriOverride firstOvMachine = new CalcolatoriOverride("Intel", 4.5,12);
         CalcolatoriOverride seconOvdMachine = new CalcolatoriOverride("Intel", 4.5,12);
         System.out.println(firstOvMachine.equals(seconOvdMachine));                     // RITORNA TRUE !, siccome verifica i
-                                                                                        // nternamente gli attributi selezionati
+                                                                                         // nternamente gli attributi selezionati
     }
 }

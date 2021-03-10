@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a38141c8-050e-469e-8357-fcd671e659a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/it/gmichele/classes_managment_visibility/Calcolatori.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/gmichele/classes_managment_visibility/CalcolatoriOverride.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/gmichele/classes_managment_visibility/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/gmichele/classes_managment_visibility/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/it/gmichele/classes_managment_visibility/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/gmichele/classes_managment_visibility/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/gmichele/classes_managment_visibility/Poligono.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/gmichele/classes_managment_visibility/Poligono.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/gmichele/classes_managment_visibility/SDCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/gmichele/classes_managment_visibility/SDCar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615328672278</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="M3-E9">
+      <created>1615413807951</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1615413807951</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -262,7 +264,8 @@
     <MESSAGE value="better identation" />
     <MESSAGE value="M3-E02" />
     <MESSAGE value="up" />
-    <option name="LAST_COMMIT_MESSAGE" value="up" />
+    <MESSAGE value="M3-E9" />
+    <option name="LAST_COMMIT_MESSAGE" value="M3-E9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
