@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a38141c8-050e-469e-8357-fcd671e659a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/answers.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/gmichele/classes_managment_visibility/abstractness/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/gmichele/classes_managment_visibility/abstractness/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/gmichele/classes_managment_visibility/interfaces/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/gmichele/classes_managment_visibility/interfaces/Interface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/gmichele/classes_managment_visibility/interfaces/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/gmichele/jcf/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/gmichele/classes_managment_visibility/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/gmichele/classes_managment_visibility/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +55,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MultisalaOOP-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/it/gmichele/classes_managment_visibility/cia" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="it.gmichele.classes_managment_visibility.cia" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\miky3\Desktop\OOP\src\it\gmichele\classes_managment_visibility\cia" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\miky3\Desktop\OOP\src\org\gmichele" />
       <recent name="C:\Users\miky3\Desktop\OOP\src\org\main\java\gmichele" />
@@ -252,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615413807951</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="M3-E11">
+      <created>1615416676476</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1615416676476</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -265,7 +284,8 @@
     <MESSAGE value="M3-E02" />
     <MESSAGE value="up" />
     <MESSAGE value="M3-E9" />
-    <option name="LAST_COMMIT_MESSAGE" value="M3-E9" />
+    <MESSAGE value="M3-E11" />
+    <option name="LAST_COMMIT_MESSAGE" value="M3-E11" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
