@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a38141c8-050e-469e-8357-fcd671e659a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/answers.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/gmichele/classes_managment_visibility/abstractness/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/gmichele/classes_managment_visibility/abstractness/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/gmichele/classes_managment_visibility/interfaces/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/gmichele/classes_managment_visibility/interfaces/Interface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/gmichele/classes_managment_visibility/interfaces/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/gmichele/jcf/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/answers.md" beforeDir="false" afterPath="$PROJECT_DIR$/answers.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -271,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615416676476</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="M4 inizio + answers.md">
+      <created>1615486333708</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1615486333708</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -285,7 +285,8 @@
     <MESSAGE value="up" />
     <MESSAGE value="M3-E9" />
     <MESSAGE value="M3-E11" />
-    <option name="LAST_COMMIT_MESSAGE" value="M3-E11" />
+    <MESSAGE value="M4 inizio + answers.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="M4 inizio + answers.md" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
