@@ -4,3 +4,5 @@
 - Polimorfismo
 
 - Astrazione & Interfacce
+
+- Wrapper

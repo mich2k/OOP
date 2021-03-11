@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a38141c8-050e-469e-8357-fcd671e659a7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/answers.md" beforeDir="false" afterPath="$PROJECT_DIR$/answers.md" afterDir="false" />
+    <list default="true" id="a38141c8-050e-469e-8357-fcd671e659a7" name="Default Changelist" comment="M4 inizio + answers.md">
+      <change afterPath="$PROJECT_DIR$/util/snippets.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/answers.md" beforeDir="false" afterPath="$PROJECT_DIR$/util/answers.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/gmichele/jcf/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/gmichele/jfc/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,13 +65,14 @@
       <recent name="C:\Users\miky3\Desktop\OOP\src\it\gmichele\classes_managment_visibility\cia" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\miky3\Desktop\OOP\util" />
+      <recent name="C:\Users\miky3\Desktop\OOP" />
       <recent name="C:\Users\miky3\Desktop\OOP\src\org\gmichele" />
       <recent name="C:\Users\miky3\Desktop\OOP\src\org\main\java\gmichele" />
-      <recent name="C:\Users\miky3\Desktop\OOP" />
       <recent name="C:\Users\miky3\Desktop\OOP\src\com\gmichele\javalessons" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Array" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.gmichele.first_concepts.Array" />
       <module name="MainPath" />
@@ -108,6 +112,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="it.gmichele.classes_managment_visibility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.gmichele.jfc.Main" />
+      <module name="MainPath" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.gmichele.jfc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,9 +199,11 @@
       <item itemvalue="Application.Costrutti" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Costrutti" />
@@ -271,8 +290,26 @@
       <option name="project" value="LOCAL" />
       <updated>1615486333708</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="M4 inizio + answers.md">
+      <created>1615487023968</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1615487023968</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
