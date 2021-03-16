@@ -6,3 +6,6 @@
 - Astrazione & Interfacce
 
 - Wrapper
+
+- Quando si utilizzano gli iteratori?
+  M4-E07~~~~

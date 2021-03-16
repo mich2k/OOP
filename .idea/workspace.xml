@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a38141c8-050e-469e-8357-fcd671e659a7" name="Default Changelist" comment="M4 inizio + answers.md">
-      <change afterPath="$PROJECT_DIR$/util/snippets.md" afterDir="false" />
+    <list default="true" id="a38141c8-050e-469e-8357-fcd671e659a7" name="Default Changelist" comment="JAVA-M4-E05">
+      <change afterPath="$PROJECT_DIR$/src/it/gmichele/jfc/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/ideas.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/answers.md" beforeDir="false" afterPath="$PROJECT_DIR$/util/answers.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/gmichele/jcf/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/gmichele/jfc/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/gmichele/jfc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/gmichele/jfc/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/answers.md" beforeDir="false" afterPath="$PROJECT_DIR$/util/answers.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/it/gmichele/classes_managment_visibility/cia" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ooprogramming" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -65,11 +66,11 @@
       <recent name="C:\Users\miky3\Desktop\OOP\src\it\gmichele\classes_managment_visibility\cia" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\miky3\Desktop\OOP\util" />
       <recent name="C:\Users\miky3\Desktop\OOP" />
+      <recent name="C:\Users\miky3\Desktop\OOP\src" />
+      <recent name="C:\Users\miky3\Desktop\OOP\util" />
       <recent name="C:\Users\miky3\Desktop\OOP\src\org\gmichele" />
       <recent name="C:\Users\miky3\Desktop\OOP\src\org\main\java\gmichele" />
-      <recent name="C:\Users\miky3\Desktop\OOP\src\com\gmichele\javalessons" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main (2)">
@@ -297,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615487023968</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="JAVA-M4-E05">
+      <created>1615496229979</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1615496229979</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -310,6 +318,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -323,7 +332,8 @@
     <MESSAGE value="M3-E9" />
     <MESSAGE value="M3-E11" />
     <MESSAGE value="M4 inizio + answers.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="M4 inizio + answers.md" />
+    <MESSAGE value="JAVA-M4-E05" />
+    <option name="LAST_COMMIT_MESSAGE" value="JAVA-M4-E05" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
