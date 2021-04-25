@@ -1,4 +1,5 @@
 package it.gmichele.first_concepts;
+
 import java.awt.Point;
 
 class Array {
