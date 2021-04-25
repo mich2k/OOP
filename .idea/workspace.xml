@@ -4,72 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a38141c8-050e-469e-8357-fcd671e659a7" name="Default Changelist" comment="JAVA-M4-E05">
-      <change afterPath="$PROJECT_DIR$/Test/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arrayExceptions.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/gmichele/exceptions/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/gmichele/exceptions/ThrowableTryExcept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/gmichele/exceptions/TryExcept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/gmichele/train/first.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/RESTrules.md" afterDir="false" />
+    <list default="true" id="a38141c8-050e-469e-8357-fcd671e659a7" name="Default Changelist" comment="EXCEPTIONS">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/app/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/app/src/androidTest/java/com/example/test/ExampleInstrumentedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/app/src/main/java/com/example/test/BootLogo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/app/src/main/java/com/example/test/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/app/src/main/java/com/example/test/data/LoginDataSource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/app/src/main/java/com/example/test/data/LoginRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/app/src/main/java/com/example/test/data/Result.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/app/src/main/java/com/example/test/data/model/LoggedInUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/app/src/main/java/com/example/test/ui/login/LoggedInUserView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/app/src/main/java/com/example/test/ui/login/LoginActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/app/src/main/java/com/example/test/ui/login/LoginFormState.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/app/src/main/java/com/example/test/ui/login/LoginResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/app/src/main/java/com/example/test/ui/login/LoginViewModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/app/src/main/java/com/example/test/ui/login/LoginViewModelFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/app/src/main/res/layout/activity_login.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/app/src/main/res/layout/activity_logo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/app/src/main/res/values-night/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/app/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/app/src/main/res/values/dimens.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/app/src/main/res/values/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/app/src/test/java/com/example/test/ExampleUnitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/gmichele/first_concepts/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/gmichele/first_concepts/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/ideas.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPath.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MainPath.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +43,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/it/gmichele/classes_managment_visibility/Main.java" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/it/gmichele/exceptions/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/module-info.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/it/gmichele/exceptions/ThrowableTryExcept.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1pVdOi9H648mpDrDX0e0sxpGuXT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -114,13 +58,18 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
@@ -305,7 +254,7 @@
       <workItem from="1619282448698" duration="1182000" />
       <workItem from="1619283736848" duration="3544000" />
       <workItem from="1619336084438" duration="723000" />
-      <workItem from="1619336826194" duration="6693000" />
+      <workItem from="1619336826194" duration="8582000" />
     </task>
     <task id="LOCAL-00001" summary="UP">
       <created>1615290841852</created>
@@ -391,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615496229979</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="EXCEPTIONS">
+      <created>1619343893934</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1619343893934</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,7 +378,8 @@
     <MESSAGE value="M3-E11" />
     <MESSAGE value="M4 inizio + answers.md" />
     <MESSAGE value="JAVA-M4-E05" />
-    <option name="LAST_COMMIT_MESSAGE" value="JAVA-M4-E05" />
+    <MESSAGE value="EXCEPTIONS" />
+    <option name="LAST_COMMIT_MESSAGE" value="EXCEPTIONS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
