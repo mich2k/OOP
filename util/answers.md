@@ -9,3 +9,5 @@
 
 - Quando si utilizzano gli iteratori?
   M4-E07~~~~
+  
+- Static & Dynamic Binding
