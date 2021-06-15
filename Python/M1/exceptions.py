@@ -12,6 +12,7 @@ def division(n1, n2):  # try-except-else-finally
 
 
 def main_exept():
+    print('Exceptions Handling M1')
     print('\n')
     print(division(3, 1))
     return

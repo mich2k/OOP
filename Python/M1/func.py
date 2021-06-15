@@ -37,6 +37,7 @@ def key_value(**kwargs):
 
 
 def main_func():
+    print('Functions M1')
     l = [1, 2, 3]
     print('\nExtend list by reference:')
     ext_list(l)

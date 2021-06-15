@@ -1,4 +1,5 @@
 def main_flow():
+    print('Flow Control M1')
     if 2 > 3:
         print("if test")
     elif 2 == 3:

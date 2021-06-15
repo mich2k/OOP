@@ -75,7 +75,7 @@ def repeat_and_return(this):
 
 
 def main_dec():
-    print('\n\nDecorators:')
+    print('Decorators M1')
     f_in_f()
     print('\n')
     f_in_f(1)
