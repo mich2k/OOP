@@ -30,6 +30,17 @@
   - [**Generics**](#generics)
     - [**Perchè sono state introdotte in Java 5**](#perchè-sono-state-introdotte-in-java-5)
     - [**La wildcard ? e il sub-typing**](#la-wildcard--e-il-sub-typing)
+  - [**Exceptions**](#exceptions)
+    - [**Cosa sono**](#cosa-sono)
+    - [**Checked & Unchecked**](#checked--unchecked)
+    - [**Generazione di un exception con throw**](#generazione-di-un-exception-con-throw)
+    - [**Tipi di Delega**](#tipi-di-delega)
+      - [**Assente**](#assente)
+      - [**Completa**](#completa)
+      - [**Parziale**](#parziale)
+    - [**Finally**](#finally)
+  - [**Threads**](#threads)
+    - [**Gestione**](#gestione)
   - [**Altri Concetti OOP**](#altri-concetti-oop)
     - [**Overloading**](#overloading)
     - [**Costruttore**](#costruttore)
@@ -255,6 +266,102 @@ La wildcard può avere limiti superiori e inferiori:
 - Avendo `List<? super Fruit>` è una lista di oggetti sconosciuti ma sono tutti AL MASSIMO Frutti.
 
 
+## **Exceptions**
+### **Cosa sono**
+Le eccezioni permettono di dare dei nomi ai problemi che si verificano (così evitando ritorni numerici non mantenibili), permettono la delega e di poter gestire l eccezione quando viene intercettata.
+Queste sono parallele agli Errori (che possono essere errori di linking o della vm di java.
+
+### **Checked & Unchecked**
+
+Le eccezioni checked sono quel tipo di eccezioni che è obbligatorio andare a controllare e quindi wrappare con il try/catch (per esempio quando si opera con i File sono quasi sempre checked come `FileNotFoundException`).
+Per quelle unchecked invece non è obbligatorio fare il controllo try/catch altrimenti il codice diventerebbe bloated di controlli (esempio `divisionbyzero`, `ArithmeticException`, ,`ArrayIndexOutOfBound`, `NullPointerException`)
+
+### **Generazione di un exception con throw**
+```
+public class ArrayList<E> extends AbstractList<E> {
+…
+  public E get(int index) {
+    rangeCheck(index);
+    return elementData(index);
+  }
+
+  private void rangeCheck(int index) {
+    if (index >= size) throw new   IndexOutOfBoundsException(outOfBoundsMsg(index));
+  }
+  …
+}
+```
+### **Tipi di Delega**
+
+#### **Assente**
+
+Avviene il throw dell exception quando viene rilevata e nel punto in cui viene rilevata
+
+```
+public class ArrayList<E> extends AbstractList<E> {
+…
+  public E get(int index) {
+    rangeCheck(index);
+    return elementData(index);
+  }
+
+  private void rangeCheck(int index) {
+    if (index >= size) throw new   IndexOutOfBoundsException(outOfBoundsMsg(index));
+  }
+  …
+}
+```
+
+#### **Completa**
+Il throw viene delegato al metodo
+
+```
+/* foo() delegates IOException */
+class Dummy {
+	public void foo() throws IOException {
+		char[] v = new char[256];
+		FileReader f = new FileReader("test.txt");
+		f.read(v);
+		f.close();
+	}
+}
+
+/* main() intercepts IOException */
+class App {
+	public static void main (String args[]) {
+		try {
+			new Dummy().foo();
+		} catch (IOException e) { /* do something */ }
+	}
+```
+#### **Parziale**
+Viene rilevata l exception ma viene cambiata e lanciata un altra eccezione di un altro tipo.
+
+### **Finally**
+
+Permette di scrivere del codice che viene eseguito in tutti i casi.
+
+```
+try{
+
+}catch{
+
+}finally{
+
+}
+```
+
+## **Threads**
+
+I thread volgarmente possiamo considerarli processi più semplici, hanno il loro program counter, le loro variabili e il loro indirizzo di memoria, anche se in realtà non sono dei veri e propri processi perchè più thread sotto lo stesso processo possono anche comunicare tra di loro. La gestione multi-thread però non è banale ma possono permettere delle operazioni in semi-parallelismo.
+
+
+### **Gestione**
+Qualsiasi programma Java deve avere almeno un thread: il Main.
+Il sistema operativo utilizza un componente contenuto nel Kernel: lo *`scheduler`*. Questo assegna la cpu ai rispettivi processi/thread.
+
+
+
 ## **Altri Concetti OOP**
 
 ### **Overloading**
@@ -309,11 +416,11 @@ Un interfaccia è una classe che ci permette di dichiarare metodi senza implemen
   
 ### **Vocabulary**
 
- - ***abstract method*** a method which is declared but not defined (it has no method body)
- - ***abstract class*** a class which either (1) contains abstract methods, or (2) has been declared abstract
- - ***instantiate*** to create an instance (object) of a class
+ - ***abstract method:*** a method which is declared but not defined (it has no method body)
+ - ***abstract class:*** a class which either (1) contains abstract methods, or (2) has been declared abstract
+ - ***instantiate:*** to create an instance (object) of a class
 
- - ***interface—similar*** to a class, but contains only abstract methods (and possibly constants)
- - ***adapter class*** a class that implements an interface but has only empty method bodies
+ - ***interface:*** similar to a class, but contains only abstract methods (and possibly constants)
+ - ***adapter class:*** a class that implements an interface but has only empty method bodies
 
 
