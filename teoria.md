@@ -41,6 +41,24 @@
     - [**Finally**](#finally)
   - [**Threads**](#threads)
     - [**Gestione**](#gestione)
+    - [**Creazione**](#creazione)
+    - [**Avvio**](#avvio)
+    - [**Priorità**](#priorità)
+    - [**Stati Thread**](#stati-thread)
+      - [*Running*](#running)
+      - [*Runnable*](#runnable)
+      - [*Waiting*](#waiting)
+      - [*Blocking*](#blocking)
+      - [*Sleeping*](#sleeping)
+    - [**Sincronizzazione**](#sincronizzazione)
+      - [**Come funziona**](#come-funziona)
+      - [**Implementazioni**](#implementazioni)
+        - [*`Esplicita`*](#esplicita)
+        - [*`Classe thread-safe`*](#classe-thread-safe)
+    - [**Metodi Thread**](#metodi-thread)
+      - [*yield()*](#yield)
+      - [*wait()*](#wait)
+      - [*notify()*](#notify)
   - [**Altri Concetti OOP**](#altri-concetti-oop)
     - [**Overloading**](#overloading)
     - [**Costruttore**](#costruttore)
@@ -360,6 +378,137 @@ I thread volgarmente possiamo considerarli processi più semplici, hanno il loro
 Qualsiasi programma Java deve avere almeno un thread: il Main.
 Il sistema operativo utilizza un componente contenuto nel Kernel: lo *`scheduler`*. Questo assegna la cpu ai rispettivi processi/thread.
 
+### **Creazione**
+
+Ci sono due modi per creare un thread:
+
+- `Estendere la classe Thread
+`
+<br>
+<br>
+
+  ```
+  Class T extends Thread {
+  public void run() {
+  		//code here   
+  	}
+  }
+  T t = new T(); 
+  t.start(); 
+  ```
+<br>
+
+- `Implementare l interfaccia nel suo metodo run()
+`
+<br>
+<br>
+    ```
+    Class R implements Runnable {
+    	public void run() {
+    		//code here   
+    	}
+    }
+    Thread t = new Thread(new R());
+    t.start(); 
+    ```
+
+### **Avvio**
+
+Quando un thread viene creato questo comunque non viene eseguito fino a quando il comando start() come metodo non viene chiamato (può essere avviato una sola volta altrimenti tirerà una RuntimeException).
+
+```
+public class Runner{
+	public static void main(String[] args) {
+		Thread t1 = new Thread(new Counter(), “T_A”);
+		Thread t2 = new Thread(new Counter(), “T_B”);
+		Thread t3 = new Thread(new Counter(), “T_C”);
+		t1.start(); t2.start(); t3.start();
+	}
+}
+```
+### **Priorità**
+
+Quando i thread vengono startati non si è certi sull' ordine, difatti non è detto che vengano avviati con l ordine per il quale noi chiamiamo il loro metodo start().
+Per questo possiamo definire delle priorità (valore tra 1-10).
+
+```
+Thread t = new Thread(new Runnable()); 
+t.setPriority(Thread.MAX_PRIORITY);	
+t.start();
+```
+
+### **Stati Thread**
+
+#### *Running*
+#### *Runnable*
+
+#### *Waiting*
+ 
+#### *Blocking*
+#### *Sleeping*
+
+
+### **Sincronizzazione**
+
+#### **Come funziona**
+
+Siccome è possibile che i thread condividano dati o oggetti è possibile andare a sincronizzare i thread. Questo significa andare a bloccare un dato e renderlo disponibile a un unico thread alla volta, così da evitare inconsistenza, questa operazione va fatta solo sui dati per cui il multi thread ne romperebbe la consistenza.
+
+#### **Implementazioni**
+
+##### *`Esplicita`*
+<br>
+
+
+```
+   public void run() {
+        while (true) {
+            synchronized (account) {
+                int amount = rnd.nextInt(100);
+
+                if (account.getBalance() < amount) {
+                    System.out.printf("%s quitting [balance=%d, amount=%d]\n", Thread.currentThread().getName(),
+                            account.getBalance(), amount);
+                    break;
+                }
+            }
+        }
+   }
+```
+##### *`Classe thread-safe`*
+è una classe safe per l accesso multi thread
+<br>
+
+```
+public class SharedResource {
+    public synchronized void A() {
+        System.out.println(Thread.currentThread().getName() + " A()");
+        try {
+            Thread.sleep(100);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public synchronized void B() {
+        System.out.println(Thread.currentThread().getName() + " B()");
+    }
+
+    public void C() {
+        System.out.println(Thread.currentThread().getName() + " C()");
+    }
+
+}
+```
+
+### **Metodi Thread**
+
+#### *yield()*
+Fa tornare il thread nello stato Runnable.
+#### *wait()*
+può essere chiamata solo da un blocco sincronizzato, rimuove il lock e permette ad un altro thread di arrivare e acquisire il lock.
+#### *notify()*
+Invia una notifica ad uno dei thread interessati, esiste anche notifyAll().
 
 
 ## **Altri Concetti OOP**
