@@ -1,5 +1,6 @@
 
 - [**Proprietà generali OOP:**](#proprietà-generali-oop)
+  - [**Cos'è una classe**](#cosè-una-classe)
   - [**Encapsulation (Incapsulamento)**](#encapsulation-incapsulamento)
   - [**Inheritance (Ereditarietà)**](#inheritance-ereditarietà)
   - [**Polymorfism (Polimorfismo)**](#polymorfism-polimorfismo)
@@ -39,6 +40,7 @@
       - [**Completa**](#completa)
       - [**Parziale**](#parziale)
     - [**Finally**](#finally)
+  - [**I/O Framework**](#io-framework)
   - [**Threads**](#threads)
     - [**Gestione**](#gestione)
     - [**Creazione**](#creazione)
@@ -60,6 +62,9 @@
       - [*wait()*](#wait)
       - [*notify()*](#notify)
   - [**Altri Concetti OOP**](#altri-concetti-oop)
+    - [**Static e Dynamic Binding**](#static-e-dynamic-binding)
+      - [*Static*](#static)
+      - [*Dynamic*](#dynamic)
     - [**Overloading**](#overloading)
     - [**Costruttore**](#costruttore)
     - [**Wrapper**](#wrapper)
@@ -73,6 +78,9 @@
 
 # **Proprietà generali OOP:**
 
+## **Cos'è una classe**
+
+Una classe rappresenta l astrazione e la definizione di un oggetto, include le variabili, Il costruttore, distruttore e metodi relativi a quella classe.
 ## **Encapsulation (Incapsulamento)**
 
 Ogni oggetto incapsula il codice (dati e metodi che lo riguardano) in se stesso (wrapping). In questo modo vengono introdotti fattori di sicurezza e diventa molto più semplice rilevare errori/bug siccome le variabili interessate vengono utilizzate solo nella classe dove sono incapsulate.
@@ -193,6 +201,9 @@ Set<Integer> my_collect = new HashSet<>();
 
 
 ##### **HashSet**
+
+Utilizza il protocollo hashmap avendo come chiave il valore dato da noi e come valore un booleano PRESENT o null.
+
 - Estende Set
 - Non ricorda l ordine d inserimento
 - Assicura l unicità non ammettendo duplcati
@@ -369,6 +380,10 @@ try{
 }
 ```
 
+
+## **I/O Framework**
+
+
 ## **Threads**
 
 I thread volgarmente possiamo considerarli processi più semplici, hanno il loro program counter, le loro variabili e il loro indirizzo di memoria, anche se in realtà non sono dei veri e propri processi perchè più thread sotto lo stesso processo possono anche comunicare tra di loro. La gestione multi-thread però non è banale ma possono permettere delle operazioni in semi-parallelismo.
@@ -513,6 +528,40 @@ Invia una notifica ad uno dei thread interessati, esiste anche notifyAll().
 
 ## **Altri Concetti OOP**
 
+### **Static e Dynamic Binding**
+
+#### *Static*
+Lo Static Binding avviene quando è presente un metodo statico, per esempio data una classe `Car` possiamo avere un metodo "kmh to mph" statico che converte la velocità anche senza nessun oggetto creato.
+Nello statico sappiamo nella fase di compilazione il tipo di un oggetto
+
+```
+class Dog{  
+ private void eat(){System.out.println("dog is eating...");}  
+  
+ public static void main(String args[]){  
+  Dog d1=new Dog();  
+  d1.eat();  
+ }  
+}  
+```
+
+#### *Dynamic*
+In quello dinamico il binding oggetto-tipo lo sapremo solo al Runtime
+
+```
+class Animal{  
+ void eat(){System.out.println("animal is eating...");}  
+}  
+  
+class Dog extends Animal{  
+ void eat(){System.out.println("dog is eating...");}  
+  
+ public static void main(String args[]){  
+  Animal a=new Dog();  
+  a.eat();  
+ }  
+}  
+```
 ### **Overloading**
 
 Un metodo non è univocamente identificato dal nome bensì dal suo nome + la lista dei parametri, questo significa che ci possono essere più metodi con il medesimo nome ma che accettano parametri diversi e si comportano quindi in metodi diversi. Questa è definita `signature` e permette l Overloading.
@@ -550,6 +599,21 @@ abstract class MyClass {
 ```
 
 ### **Interfacce**
+
+```
+interface calculus{
+    public float Somma();
+    public float Sottrazione();
+    public float Divisione();
+    public float Moltiplicazione();
+}
+
+class my_calc implements calculus{
+
+  // ...
+
+}
+```
 
 Un interfaccia è una classe che ci permette di dichiarare metodi senza implementarne il codice.
   - questi metodi sono pubblici ed astratti di default
